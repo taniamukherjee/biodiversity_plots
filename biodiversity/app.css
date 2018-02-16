@@ -1,0 +1,53 @@
+.box {
+    background-color: rgb(233, 230, 230);
+    padding: 20px;
+    margin-top: 35px;
+    display: block;
+    height: auto;
+    font: bold;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bold;
+    overflow : auto;
+  }
+  
+  .image {
+      max-width:390px;
+      width:100%;
+  }
+  
+  .nav li {
+      display:inline-block;
+  }
+  
+  .box_vis {
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+    padding: 20px;
+    margin-top: 35px;
+    display: block;
+    height: auto;
+    font: bold;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bold;
+    overflow : auto;
+  }
+  .image_vis {
+    max-width:450px;
+    width:100%;
+  }
+  .image_vis_with_border {
+    max-width:390px;
+    width:100%;
+    outline: 2px solid red;
+    outline-offset: 0px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
